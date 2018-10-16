@@ -1,0 +1,80 @@
+{
+  "name": "ngx-logger",
+  "version": "3.3.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbfannin/ngx-logger"
+  },
+  "author": {
+    "name": "David Fannin",
+    "email": "dbfannin.npm@gmail.com"
+  },
+  "contributors": [
+    "danielsogl",
+    "IsNull",
+    "jensengar",
+    "leo6104",
+    "sam-lex",
+    "slindenberg",
+    "yildiraymeric",
+    "th3n3wguy <tarleton.shane@gmail.com>",
+    "bniedermeyer"
+  ],
+  "keywords": [
+    "angular",
+    "logging"
+  ],
+  "bugs": {
+    "url": "https://github.com/dbfannin/ngx-logger/issues"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.5.0",
+    "@angular-devkit/build-ng-packagr": "~0.5.0",
+    "@angular/animations": "^6.0.9",
+    "@angular/cdk": "^6.4.1",
+    "@angular/cli": "^6.0.8",
+    "@angular/common": "^6.0.9",
+    "@angular/compiler": "^6.0.9",
+    "@angular/compiler-cli": "^6.0.9",
+    "@angular/core": "^6.0.9",
+    "@angular/forms": "^6.0.9",
+    "@angular/material": "^6.4.1",
+    "@angular/platform-browser": "^6.0.9",
+    "@angular/platform-browser-dynamic": "^6.0.9",
+    "@types/jasmine": "~2.8.6",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.2.1",
+    "core-js": "^2.5.4",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~1.7.1",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~1.4.2",
+    "karma-jasmine": "~1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^2.4.1",
+    "protractor": "~5.3.0",
+    "rxjs": "^6.2.2",
+    "ts-node": "~5.0.1",
+    "tsickle": ">=0.25.5",
+    "tslib": "^1.7.1",
+    "tslint": "~5.9.1",
+    "typescript": "~2.7.2",
+    "zone.js": "^0.8.24"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "main": "bundles/ngx-logger.umd.js",
+  "module": "esm5/ngx-logger.js",
+  "es2015": "esm2015/ngx-logger.js",
+  "typings": "ngx-logger.d.ts",
+  "metadata": "ngx-logger.metadata.json",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
